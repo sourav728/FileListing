@@ -24,7 +24,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class MainActivity extends Activity {
-   /******Give FTP HOST,FTP USERNAME,FTP PASSWORD*********/
+    private static final String FTP_HOST = "45.114.246.216";
+    private static final String FTP_USER = "TVDDEMO1";
+    private static final String FTP_PASS = "123123";
     public static int FTP_PORT = 21;
     public static String port = "21";
     int length = 0;
